@@ -1,23 +1,23 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - *Sea Monster Crowdfunding*
 
-Submitted by: **Your Name Here**
+Submitted by: **Xin Zheng**
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**Sea Monster Crowdfunding** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: **20** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-* [ ] The introduction section explains the background of the company and how many games remain unfunded.
-* [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
-* [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+* [x] The introduction section explains the background of the company and how many games remain unfunded.
+* [x] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
+* [x] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
+* [x] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [x] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough
 
@@ -35,6 +35,8 @@ GIF created with ...
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+During the development of the app, several challenges arose. Handling and parsing the JSON data from games.js required careful attention to ensure accurate conversion and validation. Dynamically updating the DOM presented its own set of difficulties, particularly in clearing old content and appending new elements without disrupting the existing structure. Implementing effective filtering and sorting for funded and unfunded games was crucial for displaying the correct data, and presenting the top two games involved precise sorting and array destructuring. Additionally, managing edge cases, such as when there are fewer than two games or all games are unfunded, demanded extra checks to maintain robustness. Overall, these challenges provided valuable learning experiences in JavaScript and DOM manipulation.
 
 ## License
 
